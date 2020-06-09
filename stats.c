@@ -35,9 +35,31 @@ void main() {
                               201,   6,  12,  60,   8,   2,   5,  67,
                                 7,  87, 250, 230,  99,   3, 100,  90};
 
+  unsigned int median,mean,maximum,minimum;
+  unsigned char sorted_test[SIZE];
   /* Other Variable Declarations Go Here */
   /* Statistics and Printing Functions Go Here */
+  print_statistics(test,SIZE);
+  print_array(test,SIZE);
+  median = find_median(test,SIZE);
+  mean = find_mean(test,SIZE);
+  maximum = find_maximum(test,SIZE);
+  minimum= find_minimum(test,SIZE);
+  sorted_test = sort_array(test,SIZE);
 
 }
+void print_statistics(undigned char *t,unsigned int s){}
+void print_array(undigned char *t,unsigned int s){}
+unsigned int  find_median(undigned char *t,unsigned int s){}
+unsigned int  find_mean(undigned char *t,unsigned int s){}
+unsigned int  find_maximum(undigned char *t,unsigned int s){}
+unsigned int  find_minimum(undigned char *t,unsigned int s){}
+unsigned char *  sort_array(undigned char *t,unsigned int s){}
+
+
+
+
+
+
 
 /* Add other Implementation File Code Here */
