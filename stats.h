@@ -35,6 +35,6 @@
  *
  * @return <Add Return Informaiton here>
  */
-
+void print_statistics(unsigned char * pointer);
 
 #endif /* __STATS_H__ */
